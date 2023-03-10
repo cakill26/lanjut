@@ -14,7 +14,7 @@ DOMAIN=kid-vpn.me
 sub=$(</dev/urandom tr -dc a-x1-9 | head -c6 | tr -d '\r' | tr -d '\r\n')
 SUB_DOMAIN=${sub}.kid-vpn.me
 CF_ID=kidroster55@gmail.com
-CF_KEY=d4d89c8dc6d5cbf863551695a3a5326ad5316
+CF_KEY=1fa7ccec0343954e2242e221e38a439d20277
 set -euo pipefail
 IP=$(wget -qO- ipinfo.io/ip);
 echo "Updating DNS for ${SUB_DOMAIN}..."
