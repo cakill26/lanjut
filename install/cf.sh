@@ -10,9 +10,9 @@ clear
 MYIP=$(wget -qO- ipinfo.io/ip);
 clear
 apt install jq curl -y >/dev/null 2>&1
-DOMAIN=kid-vpn.me
+DOMAIN=gore-envy.tech
 sub=$(</dev/urandom tr -dc a-x1-9 | head -c6 | tr -d '\r' | tr -d '\r\n')
-SUB_DOMAIN=${sub}.kid-vpn.me
+SUB_DOMAIN=${sub}.gore-envy.tech
 CF_ID=kidroster55@gmail.com
 CF_KEY=1fa7ccec0343954e2242e221e38a439d20277
 set -euo pipefail
